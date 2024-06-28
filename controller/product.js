@@ -35,7 +35,7 @@ exports.getProduct = async (req, res) => {
         res.json(product);
     } catch (err) {
         res.status(500).json(err);
-    }
+    } 
 };
 
 // Replace a product by ID

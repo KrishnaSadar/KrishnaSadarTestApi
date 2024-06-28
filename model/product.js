@@ -12,6 +12,6 @@ const productSchema=new Schema({
     category: {type: String, required: true},
     thumbnail: {type: String, required: true},
     images: [ String ]
-});
+}); 
 
 exports.Product=mangoose.model('Product',productSchema);
