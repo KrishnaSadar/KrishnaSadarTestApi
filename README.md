@@ -31,7 +31,7 @@ This project is a fully-functional REST API designed using Node.js, Express, and
 
 **API Base URL**: [https://krishnasadartestapi.vercel.app/](https://krishnasadartestapi.vercel.app/)
 
-**GitHub Repository**: [GitHub Link](https://github.com/yourusername/your-repo)
+
 
 ### How to Use This API
 
