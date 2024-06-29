@@ -9,7 +9,7 @@ const productRouter=require('./routes/product')
 //connect with mong0 db
 dbconnecter().catch(err=>console.log(err));
 async function dbconnecter(){
-    await mongoose.connect(process.env.DB);
+    await mongoose.connect("mongodb+srv://krishnasadar786:PVOeqRNrKxMrbZql@test.gjizkou.mongodb.net/?retryWrites=true&w=majority&appName=test");
     console.log('server is connected to database');
 }
 
