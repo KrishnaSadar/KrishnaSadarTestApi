@@ -18,7 +18,7 @@ async function dbconnecter(){
 
 server.use(express.json());
 server.use(morgan('dev'));
-server.use('/products',productRouter.router);
+server.use('/',productRouter.router);
 
 server.listen(process.env.PORT,()=>{
     console.log('server chalu zal re')
